@@ -1,0 +1,5 @@
+[ 2015-09-01T10:12:16+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Index/graduate.html]
+[ 2015-09-01T16:56:20+08:00 ] ERR: (ThinkException) 参数错误或者未定义:id
+[ 2015-09-01T16:57:38+08:00 ] ERR: (ThinkException) 参数错误或者未定义:id
+[ 2015-09-01T16:57:39+08:00 ] ERR: (ThinkException) 参数错误或者未定义:id
+[ 2015-09-01T16:58:01+08:00 ] ERR: (ThinkException) 参数错误或者未定义:id

@@ -1,0 +1,795 @@
+[ 2015-08-15T22:18:58+08:00 ] 0.0.0.0 /xin_gong/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006280s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006537s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006672s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.098638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098790s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005151s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.005935s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004697s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.006349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022513s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.006872s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007014s ]
+
+[ 2015-08-15T22:19:13+08:00 ] 0.0.0.0 /xin_gong/index.php/Index/jie_shao
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006697s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006871s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+SQL: SHOW COLUMNS FROM `xg_academy` [ RunTime:0.134507s ]
+SQL: SELECT * FROM `xg_academy` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001730s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002853s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003207s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.081739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082104s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002099s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002035s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001800s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009197s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002714s ]
+
+[ 2015-08-15T22:19:17+08:00 ] 0.0.0.0 /xin_gong/index.php/Index/leader
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000885s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000729s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000918s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019820s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000592s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000579s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000432s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002628s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000660s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2015-08-15T22:19:27+08:00 ] 0.0.0.0 /xin_gong/index.php/Index/organize
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000969s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000598s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000721s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019609s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000597s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000592s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000461s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002609s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000763s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2015-08-15T22:19:50+08:00 ] 0.0.0.0 /xin_gong/index.php/Index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001121s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000726s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000891s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010636s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000606s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000634s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000499s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002834s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000872s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2015-08-15T22:24:08+08:00 ] 0.0.0.0 /xin_gong/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001064s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003071s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003463s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.077231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077605s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002092s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002968s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002180s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011438s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002516s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002826s ]
+
+[ 2015-08-15T22:24:34+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005077s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005445s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002332s ]
+SQL: SHOW COLUMNS FROM `xg_academy` [ RunTime:0.041124s ]
+SQL: SELECT * FROM `xg_academy` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001103s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003002s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003328s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.063565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064038s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002220s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002223s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002087s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010308s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002757s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003065s ]
+
+[ 2015-08-15T22:24:41+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/teacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000845s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `xg_teacher` [ RunTime:0.127602s ]
+SQL: SELECT * FROM `xg_teacher`  [ RunTime:0.000804s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001520s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001774s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038788s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000991s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001031s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000776s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004454s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001267s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001441s ]
+
+[ 2015-08-15T22:24:49+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001105s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: SHOW COLUMNS FROM `xg_academy` [ RunTime:0.045363s ]
+SQL: SELECT * FROM `xg_academy` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001264s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002996s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003366s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034177s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001859s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001665s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000958s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006568s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001778s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002007s ]
+
+[ 2015-08-15T22:24:53+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000899s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `xg_academy` [ RunTime:0.042596s ]
+SQL: SELECT * FROM `xg_academy` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000759s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001070s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001278s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018281s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000989s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001001s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000690s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004385s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001321s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2015-08-15T22:24:59+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/article
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001142s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `xg_article` [ RunTime:0.148560s ]
+SQL: SELECT * FROM `xg_article`  [ RunTime:0.000818s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001254s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001458s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.052924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053159s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001019s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000991s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000733s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004829s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001364s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2015-08-15T22:25:07+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/article
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000921s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `xg_article` [ RunTime:0.043256s ]
+SQL: SELECT * FROM `xg_article`  [ RunTime:0.001219s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002031s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002353s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035778s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002020s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002203s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001589s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008982s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002358s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002720s ]
+
+[ 2015-08-15T22:25:09+08:00 ] ERR: (ThinkException) 非法操作:file
+[ 2015-08-15T22:39:45+08:00 ] 0.0.0.0 /xin_gong/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000937s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001058s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011276s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000715s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000687s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000748s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003117s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000838s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2015-08-15T22:39:51+08:00 ] 0.0.0.0 /xin_gong/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003317s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003679s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003045s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002237s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002619s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025595s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001704s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001789s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001334s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007821s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004325s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004909s ]
+
+[ 2015-08-15T22:40:06+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001544s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001749s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+SQL: SHOW COLUMNS FROM `xg_academy` [ RunTime:0.025512s ]
+SQL: SELECT * FROM `xg_academy` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000712s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001962s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002303s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016473s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001042s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001045s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000773s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004529s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001273s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2015-08-15T22:40:09+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/teacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000834s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `xg_teacher` [ RunTime:0.034850s ]
+SQL: SELECT * FROM `xg_teacher`  [ RunTime:0.000973s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001598s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001927s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026548s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001366s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001669s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000925s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005833s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001701s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001996s ]
+
+[ 2015-08-15T22:40:11+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001063s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000728s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000895s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014343s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000609s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000743s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000543s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003090s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000872s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-08-15T23:23:02+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001652s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001245s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001456s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017669s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001028s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000951s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000787s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004180s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001161s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2015-08-15T23:23:06+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001393s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001583s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001884s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011979s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000896s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000894s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000830s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004011s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001093s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2015-08-15T23:23:07+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001052s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001699s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002079s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013447s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001248s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001447s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001083s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005752s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001486s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001685s ]
+
+[ 2015-08-15T23:25:05+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001332s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001199s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001348s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018782s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000874s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000825s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000768s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004320s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001130s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2015-08-15T23:26:22+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001824s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002029s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001273s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001479s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013135s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000813s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000864s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000665s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003517s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001036s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2015-08-15T23:38:34+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001142s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001158s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001283s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019244s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000832s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000804s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000725s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003886s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000927s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2015-08-15T23:38:44+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001444s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001687s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001045s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001185s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012814s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000793s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000798s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000665s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003545s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000926s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2015-08-15T23:40:07+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001206s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001331s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012007s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000825s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000776s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000691s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003547s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000934s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2015-08-15T23:41:09+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001570s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001780s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001053s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001188s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019171s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000834s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000923s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000670s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003596s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000946s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2015-08-15T23:41:16+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001234s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001255s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001399s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012215s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000894s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000863s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000927s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003904s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000925s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2015-08-15T23:43:52+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001074s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001204s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018321s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000923s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000852s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000639s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003759s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001138s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2015-08-15T23:43:58+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001601s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001825s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001242s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001467s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017504s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001094s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001116s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000817s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004809s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001102s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2015-08-15T23:45:06+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001647s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001831s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001166s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001320s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012308s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000974s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000958s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000765s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004170s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001137s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2015-08-15T23:50:46+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001221s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001345s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001557s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018668s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000959s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000933s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000728s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003937s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001512s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001638s ]
+
+[ 2015-08-15T23:51:30+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001388s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001558s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012350s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001036s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000963s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000740s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004116s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001019s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2015-08-15T23:53:34+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001275s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001310s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001570s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022500s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000938s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000854s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000669s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003839s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001158s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001294s ]
+
+[ 2015-08-15T23:55:27+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001225s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000922s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001055s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018300s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000841s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000892s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000674s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003604s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000945s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001042s ]
+

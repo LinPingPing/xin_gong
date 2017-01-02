@@ -1,0 +1,26 @@
+<extend name="Public:base" />
+
+<block name="sitenav">
+	<div class="sitenav">当前位置：
+		<a href="__URL__/index">首页</a>-
+		<a href="__URL__/xue_ke">学科建设</a>-
+		<a href="__URL__/xue_ke">教师名录</a>
+	</div>
+</block>
+<block name="about_cont">
+	<div class="about_cont">
+		<div class="teacher_h1"><{$data.name}></div>
+		<div class="teacher_info">
+			<div class="teacher_pic"><img src="__PUBLIC__/Uploads/<{$data.photo_name}>"></div>
+			<div class="teacher_detal">
+				<p><em>姓名：</em><{$data.name}></p>
+				<p><em>电话：</em><{$data.contact}></p>
+				<p><em>职称：</em><{$data.position_title}></p>
+				<p><em>邮件：</em><{$data.email}></p>
+			</div>
+		</div>
+		<div class="teacher_exper">
+			<{$data.experience}>
+		</div>
+	</div>
+</block>

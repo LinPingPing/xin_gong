@@ -1,0 +1,35 @@
+<extend name="Public:admin_base" />
+<block name="main">
+	<div id="main">
+		<div class="title">
+			<strong>上传文件</strong>/<small>Upload File</small>
+		  
+			<script type="text/javascript">
+				
+			// <!--提交数据-->
+			$(function(){
+				$('.add').click(function(){
+					$("form[name='addfile']").submit();
+				});
+			})
+			</script>
+			<a href="javascript:void(0);" class="add">保存</a>
+		</div>
+		<div class="content">
+			<form method="post" enctype="multipart/form-data" action="<{:U('Dodata/AddFile')}>" name="addfile">
+				<div class="cont_list"><strong>文件名/File Name</strong><input type="text" name="title" /></div>
+				<div class="cont_list"><strong>栏目/Column</strong>
+					<select name="column">
+					<option value="本科文件">本科文件</option>
+					<option value="研究生文件">研究生文件</option>
+					<option value="学生工作">学生工作</option>
+					<option value="招生就业">招生就业</option>
+					<option value="政策法规">政策法规</option>
+					</select></div>
+				<div class="cont_list"><strong>选择上传文件</strong><input type='file' name='file'></div>
+				
+
+			</form>
+		</div>
+	</div>
+</block>

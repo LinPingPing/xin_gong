@@ -1,0 +1,66 @@
+<extend name="Public:admin_base" />
+<block name="main">
+	<div id="main">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('tr').hover(function(){
+					$(this).removeClass('huan_she');
+					$(this).addClass('hover');
+				},function(){
+					$("table tr:odd").addClass('huan_she');
+					$(this).removeClass('hover');
+				});
+			$("table tr:odd").addClass('huan_she');
+			var value=$("select[name='select']").children('option:selected').val();
+		});
+		function Chang(){
+			var s_value=$(name='select').val();
+			// alert(s_value);
+			 window.location.href='__URL__/article/con/'+s_value;
+		}
+	</script>
+		<div class="title">
+			<strong>文章列表</strong>/<small>Article List</small>
+			<select name="select" onchange="javascript:Chang()">
+                        <option value=" ">==全部文章==</option>
+						<option value="introduce">学院概况</option>
+						<option value="xue_ke">学科建设</option>
+						<option value="zheng_che">政策法规</option>
+						<option value="party_active">支部活动</option>
+						<option value="ungraduate">本科教育</option>
+						<option value="graduate">研究生教育</option>
+						<option value="competition">学科竞赛</option>
+						<option value="teacher_student">师生天地</option>
+						<option value="student_work">学生工作</option>
+						<option value="zhao_sheng">招生信息</option>
+						<option value="jiu_ye">就业指导</option>
+            </select>
+			<a href="__URL__/AddArticle" class="add">添加</a>
+		</div>
+		<div class="content">
+			<table cellspacing="0" cellpadding="1px">
+				<tr style="background:#fff">
+					<th>ID</th>
+					<th width='270'>标题</th>
+					<th>栏目</th>
+					<th>作者</th>
+					<th>时间</th>
+					<th>操作</th>
+				</tr>
+				<foreach name='list' item='vo'>
+					<tr>
+						<td><{$vo.id}></td>
+						<td width='270'><{$vo.headline}></td>
+						<td><{$vo.column}></td>
+						<td><{$vo.author}></td>
+						<td><{$vo.time}></td>
+						<td><a href="__URL__/ModifyArt/id/<{$vo.id}>">修改</a>
+						<a href="javascript:if(confirm('确认删除吗?'))window.location='__APP__/Dodata/DelArt/id/<{$vo.id}>'">删除</a></td>
+					</tr>
+					
+				</foreach>
+			</table>
+			<div class="page"><{$page}></div>
+		</div>
+	</div>
+</block>

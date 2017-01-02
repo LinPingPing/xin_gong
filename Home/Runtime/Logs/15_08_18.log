@@ -1,0 +1,5 @@
+[ 2015-08-18T14:58:21+08:00 ] ERR: (ThinkException) 模板不存在[./Home/Tpl/Index/index/leader.html]
+[ 2015-08-18T17:53:17+08:00 ] ERR: (ThinkException) 非法操作:__PUBLICK__
+[ 2015-08-18T17:53:17+08:00 ] ERR: (ThinkException) 非法操作:__PUBLICK__
+[ 2015-08-18T17:56:12+08:00 ] ERR: (ThinkException) 非法操作:__PUBLICK__
+[ 2015-08-18T17:56:12+08:00 ] ERR: (ThinkException) 非法操作:__PUBLICK__

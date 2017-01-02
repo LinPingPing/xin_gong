@@ -1,0 +1,150 @@
+<include file="Public:header"/>
+<load href="__PUBLIC__/Css/middle.css"  />
+<div id="middle" class="">
+	<div class="slidebox">
+		<div id="photo" class="bd">
+			<ul>
+				<li>
+					<img src="__PUBLIC__/Photo/sy1.jpg" style="display:list-item"/>
+				</li>
+				<li>
+					<img src="__PUBLIC__/Photo/sy2.jpg" style="display:list-item"/>
+				</li>
+			</ul>
+			
+		</div>
+	</div>
+	<script type="text/javascript">jQuery(".slidebox").slide( { mainCell:".bd ul",autoPlay:true,delayTime:1500,interTime:8000} );</script>
+	<div id="login">
+		<div id="search">
+			<form>
+				<input type="text" class="login_kuang" style="margin-right:0px"/>
+				<input type="submit" class="search_logo" value="" />
+			</form>
+		</div>
+		<form action="http://mail.haust.edu.cn/remote.php" method="post">
+			<lable>用户名：</lable><input type="text" name="LoginName" class="login_kuang"/>
+			<lable>密码：</lable><input type="password" name="Password" class="login_kuang"/>
+			<input type="submit" value="邮件登录"/>
+		</form>
+	</div>
+	<div id="news">
+		<h2 class="bar_1">
+			<a href="http://www.haust.edu.cn/news/list.asp?siteid=dianxin" target="_blank">更多>></a>
+			<span>学院新闻</span>
+		</h2>
+		<div class="content">
+			<div class="news_tu">
+				<div class="hd">
+					<ul>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+					</ul>
+				</div>
+				<div class="bd">
+					<ul>
+						<li><img src="__PUBLIC__/Photo/news_tu1.jpg"/></li>
+						<li><img src="__PUBLIC__/Photo/news_tu2.jpg"/></li>
+						<li><img src="__PUBLIC__/Photo/news_tu3.jpg"/></li>
+					</ul>
+				</div>
+			</div>
+		<script type="text/javascript">jQuery(".news_tu").slide({mainCell:".bd ul",effect:"leftLoop",autoPlay:true,trigger:"click",interTime:5000})</script>	
+			<div class="news_text">
+			<script src="http://www.haust.edu.cn/inc/inc_news_l.asp?num=8&long=31&siteid=dianxin"></script>
+			</div>
+		</div>
+	</div>
+	<div id="notice">
+		<h2 class="bar_1">
+			<a href="http://www.haust.edu.cn/notice/?siteid=5" target="_blank">更多>></a>
+			<span>最新通知</span>
+		</h2>
+		<div class="notic_text">
+		<script src="http://www.haust.edu.cn/inc/inc_notice_l.asp?num=8&t=1&long=21&siteid=dianxin"></script>
+		</div>
+	</div>
+	
+
+	<div id="professor">
+		<h2 class="bar_2">
+			<a href="">更多>></a>
+			<span>师生天地</span>
+		</h2>
+		<foreach name='sstd_cont' item='vo'>
+		<dl class="sstd_cont">
+			<dt><a><img src="<{$vo.img_path}>"></a></dt>
+			<dd>
+				<h3><a href="__URL__/sstd/tid/715/id/<{$vo.id}>"><{$vo.headline}></a></h3>
+				<p><{$vo.time}></p>
+			</dd>
+		</dl>
+		</foreach>
+	</div>
+	<div id="active">
+		<h2 class="bar_2">
+			<a href="__URL__/sstd/tid/5">更多>></a>
+			<span>学科竞赛</span>
+		</h2>
+		<ul>
+			<foreach name="competition" item="vo">
+			    <li><span><{$vo.time}></span> <a href="__URL__/sstd/tid/715/id/<{$vo.id}>"><{$vo.headline}></a></li>
+			</foreach>
+		</ul>
+		
+	</div>
+	<div id="menu">
+		<ul>
+			<li class="hover_bg1">
+				<a href="http://jwc.haust.edu.cn/" target="_blank">
+					<i class='common bg_1'></i>
+					<span>教务系统</span>
+				</a>
+			</li>
+			<li class="hover_bg2">
+				<a href="" target="_blank">
+					<i class='common bg_2'></i>
+					<span>实验室建设</span>
+				</a>
+			</li>
+			<li class="hover_bg3">
+				<a href="__URL__/download" target="_blank">
+					<i class='common bg_3'></i>
+					<span>资料下载</span>
+				</a>
+			</li>
+			<li class="hover_bg4">
+				<a href="" target="_blank">
+					<i class='common bg_4'></i>
+					<span></span>
+				</a>
+			</li>
+			<li class="hover_bg5">
+				<a href="__URL__/xue_ke/tid/4" target="_blank">
+					<i class='common bg_5'></i>
+					<span>学科带头人</span>
+				</a>
+			</li>
+			<li class="hover_bg6">
+				<a href="http://zyzx.haust.edu.cn/moocresource/banks/search/bank_index_hnkj.jsp?bankId=11261" target="_blank">
+					<i class='common bg_6'></i>
+					<span>精品课程</span>
+				</a>
+			</li>
+			<li class="hover_bg7">
+				<a href="__URL__/jie_shao/tid/3" target="_blank">
+					<i class='common bg_7'></i>
+					<span>组织机构</span>
+				</a>
+			</li>
+			<li class="hover_bg8">
+				<a href="" target="_blank">
+					<i class='common bg_8'></i>
+					<span>联系我们</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<include file="Public:footer"/>

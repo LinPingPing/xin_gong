@@ -1,0 +1,249 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+a{
+	text-decoration: none;
+	color: #5c5c5c;
+}
+/****标题******/
+#header{
+	width: 100%;
+	height: 51px;
+	background-color: #F8F8F8;
+	border: 1px solid #ddd;
+	color: #666;
+	line-height: 51px;
+}
+#header h3{
+	display: block;
+	width: 50%;
+	float: left;
+	padding-left: 20px;
+}
+#header h5{
+	float: right;
+	display: block;
+	width: 20%;
+	text-align: right;
+	padding-right: 20px;
+}
+/*******菜单*******/
+#menu{
+	width: 17%;
+	float: left;
+	border-right: 1px solid #ddd;
+}
+#menu h2{
+	padding-left: 20px;
+	line-height: 50px;
+	color: #fff;
+	background:  #F48033 none repeat scroll 0% 0%;
+}
+#menu ul li{
+	list-style: none outside none;
+	font-size: 15px;
+	line-height: 40px;
+	height: 40px;
+	padding-left: 30px;
+	border-bottom: 1px solid #ddd;
+}
+#main{
+	width: 1093px;
+	margin:0px 250px;
+}
+.title{
+	width: 100%;
+	margin-top: 30px;
+	height: 30px;
+	float: left;
+}
+.title strong{
+	color: #0E90D2;
+	font-size: 20px;
+	font-weight: 700;
+}
+.content{
+	float: left;
+}
+/*.content form{
+	padding-left: 20px;
+}
+.content textarea{
+	width: 900px;
+	height: 100px;
+}
+.content input{
+	float: right;
+	display: block;
+	width: 70px;
+	height: 25px;
+	background: #F48033 none repeat scroll 0% 0%;
+	border: none;
+	cursor: pointer;
+	color: #333;
+}
+.content span{
+		margin-top: 10px;
+		display: block;
+		margin-bottom: 10px;
+}*/
+
+table{
+	margin-left: 30px;
+	margin-top: 30px;
+	width: 940px;
+	table-layout: fixed;
+}
+
+table tr{
+	height: 45px;
+	text-align: center;
+}
+table th{
+	border-bottom: 2px solid #DDDDDD;
+}
+table td{
+	border-bottom: 1px solid #DDDDDD;
+	overflow:hidden;  
+    white-space:nowrap;  
+    text-overflow:ellipsis;
+}
+/*table td.key{
+    overflow:hidden;  
+    white-space:nowrap;  
+    text-overflow:ellipsis;
+}*/
+td a{
+	display: inline-block;
+	width: 60px;
+	height: 27px;
+	/*margin-right: 5px;*/
+	color: #f00;
+	line-height: 27px;
+	background: #fff;
+	border: 1px solid #DDDDDD;
+}
+td a:first-child{
+	color: #0E90D2;
+	border-right: 0px;
+}
+td a:hover{
+	background: #f9f9f9;
+	color: #5c5c5c;
+}
+.add{
+	display: inline-block;
+	width: 60px;
+	height: 27px;
+	line-height: 27px;
+	background: #e6e6e6;
+	border: 1px solid #DDDDDD;
+	font-size: 15px;
+	float: right;
+	margin-right: 161px;
+	text-align: center;
+	line-height: 27px;
+	color: #444;
+}
+.add:hover{
+	background-color: #c7c7c7;
+}
+/*******隔行换色******/
+.hover{
+	background:#e6e6e6;
+}
+.huan_she{
+	background:#F9F9F9;
+}
+/******添加教师信息*****/
+form{
+	padding-left: 60px;
+	padding-top: 35px;
+	font-size: 16px;
+}
+.cont_list{
+	float: left;
+	height: 40px;
+	margin-bottom: 10px;
+	width: 550px;
+	display: inline-block;
+}
+.cont_list input{
+	width: 350px;
+	height: 15px;
+	padding: 10px 10px;
+	font-size: 15px;
+}
+.cont_list select{
+	height: 35px;
+	padding-left: 10px;
+	width: 150px;
+	font-size: 15px;
+}
+select option{
+	height: 25px;
+	line-height: 25px;
+	padding-left:10px; 
+}
+.cont_list strong{
+	width: 150px;
+	display: block;
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	text-align: right;
+	padding-right: 20px;
+	font-weight: 700;
+	color: #333;
+}
+.cont_pic{
+	width: 315px;
+	height: 160px;
+	float: right;
+	border: 1px solid #ddd;
+	margin-right: 135px;
+	padding: 30px 3px;
+}
+.person_pic{
+	width: 115px;
+	float: left;
+}
+.person_text{
+	width: 170px;
+	float: left;
+	padding-left: 30px;
+}
+.person_text p{
+	margin-bottom: 50px;
+}
+/*数据分页样式*/
+.page{
+	font-size: 14px;
+	margin: 20px auto;
+	padding-left: 220px;
+}
+.page a{
+	display: inline-block;
+	margin-left: 5px;
+	height: 21px;
+	line-height: 21px;
+	padding: 0px 4px;
+	background: #F7F7F6 none repeat scroll 0% 0%;
+	border: 1px solid #C7C7C7;
+	color: #333;
+}
+.page a:hover{
+	color: #f00;
+}
+/******文本编辑器*****/
+.editor{
+	width: 850px;
+	height: 600px;
+}
+/*******文件上传********/
+input[type='file']{
+	padding: 0px;
+	width: 250px;
+	height: 35px;
+}

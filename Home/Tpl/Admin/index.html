@@ -1,0 +1,45 @@
+<extend name="Public:admin_base" />
+<block name="main">
+	<div id="main">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('tr').hover(function(){
+				$(this).removeClass('huan_she');
+				$(this).addClass('hover');
+			},function(){
+				$("table tr:odd").addClass('huan_she');
+				$(this).removeClass('hover');
+			})
+			$("table tr:odd").addClass('huan_she');
+			});
+		
+	</script>
+		<div class="title">
+			<strong>教师信息</strong>/<small>Teacher Information</small>
+			<a href="__URL__/AddTeacher" class="add">添加</a>
+		</div>
+		<div class="content">
+			<table cellspacing="0" cellpadding="1px">
+				<tr style="background:#fff">
+					<th>ID</th>
+					<th>姓名</th>
+					<th>职称</th>
+					<th>联系方式</th>
+					<th>其他</th>
+					<th>操作</th>
+				</tr>
+				<foreach name='list' item='vo'>
+					<tr><td><{$vo.id}></td>
+					<td><{$vo.name}></td>
+					<td><{$vo.position_title}></td>
+					<td><{$vo.contact}></td>
+					<td><{$vo.other}></td>
+					<td><a href="__URL__/ModifyTea/id/<{$vo.id}>">修改</a><a href="javascript:if(confirm('确认删除吗?'))window.location='__APP__/Dodata/DelTeacher/id/<{$vo.id}>'">删除</a></td>
+					</tr>
+				</foreach>
+				
+			</table>
+<div class="page"><{$page}></div>
+		</div>
+	</div>
+</block>

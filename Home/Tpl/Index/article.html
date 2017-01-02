@@ -1,0 +1,16 @@
+<extend name="Public:base" />
+
+<block name="sitenav">
+	<div class="sitenav">当前位置：
+		<a href="__URL__/index">首页</a>-
+		<a href="__ACTION__"><{$sitenav.1}></a>-
+		<a href="__ACTION__"><{$sitenav.2}></a>
+	</div>
+</block>
+<block name="about_cont">
+	<div class="about_cont">
+		<h2 class="title_h2"><{$data.headline}></h2>
+		<div class="ly">作者： <{$data.author}> 发布于：<{$data.time}> 浏览量：</div>
+		<div class="cont_info"><{$data.content}></div>
+	</div>
+</block>

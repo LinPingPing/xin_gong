@@ -1,0 +1,25 @@
+[ 2015-08-10T23:09:42+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.009457s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009634s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008002s ]
+SQL: SHOW COLUMNS FROM `xg_academy` [ RunTime:0.034989s ]
+SQL: SELECT * FROM `xg_academy` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000606s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007034s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007207s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.096591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096773s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005771s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.006627s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.006222s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.007309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026375s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.007962s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008098s ]
+

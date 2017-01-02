@@ -1,0 +1,42 @@
+<extend name="Public:admin_base" />
+<block name="main">
+	<div id="main">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('tr').hover(function(){
+					$(this).removeClass('huan_she');
+					$(this).addClass('hover');
+				},function(){
+					$("table tr:odd").addClass('huan_she');
+					$(this).removeClass('hover');
+				});
+			$("table tr:odd").addClass('huan_she');
+		});
+	</script>
+		<div class="title">
+			<strong>文章列表</strong>/<small>Article List</small>
+			<a href="__URL__/AddFile" class="add">添加</a>
+		</div>
+		<div class="content">
+			<table cellspacing="0" cellpadding="1px">
+				<tr style="background:#fff">
+					<th>ID</th>
+					<th width='270'>文件名</th>
+					<th>时间</th>
+					<th>操作</th>
+				</tr>
+				<foreach name='list' item='vo'>
+					<tr>
+						<td><{$vo.id}></td>
+						<td width='270'><{$vo.title}></td>
+						<td><{$vo.time}></td>
+						<td><a href="__URL__/ModifyFile/id/<{$vo.id}>">重命名</a>
+						<a href="javascript:if(confirm('确认删除吗?'))window.location='__APP__/Dodata/DelFile/id/<{$vo.id}>'">删除</a></td>
+					</tr>
+					
+				</foreach>
+			</table>
+			<div class="page"><{$page}></div>
+		</div>
+	</div>
+</block>

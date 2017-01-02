@@ -1,0 +1,481 @@
+[ 2015-08-16T00:12:22+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001100s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001060s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001186s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019498s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001228s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000783s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000546s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003838s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000947s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2015-08-16T00:12:37+08:00 ] 0.0.0.0 /xin_gong/index.php/Dodata/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003800s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004182s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003122s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\wamp\www\xin_gong\Home\Lib\Action\DodataAction.class.php Á¨¨ 32 Ë°å.
+SQL: SHOW COLUMNS FROM `xg_teacher` [ RunTime:0.050206s ]
+NOTIC: [8] Undefined index: savepath D:\wamp\www\xin_gong\Home\Lib\Action\DodataAction.class.php Á¨¨ 43 Ë°å.
+SQL: INSERT INTO `xg_teacher` (`name`,`position_title`,`email`,`contact`,`other`,`task`,`experience`,`photo_path`) VALUES ('¡ı—”∆Ω','ΩÃ ⁄','www.liu.com',12134,'∏±‘∫≥§','∑÷π‹ΩÃ—ß','¥Û»˝¿≤',null) [ RunTime:0.106330s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003975s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004464s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035704s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002288s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002206s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001869s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009614s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002877s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003189s ]
+
+[ 2015-08-16T00:12:38+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001740s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001542s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001776s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017670s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001003s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000952s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000556s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000971s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003897s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001513s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001709s ]
+
+[ 2015-08-16T00:14:25+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/teacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002064s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002244s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+SQL: SHOW COLUMNS FROM `xg_teacher` [ RunTime:0.043960s ]
+SQL: SELECT * FROM `xg_teacher`  [ RunTime:0.001542s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006896s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007666s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.050429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050876s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004090s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.005855s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004598s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019980s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004617s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004936s ]
+
+[ 2015-08-16T00:15:16+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/teacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001243s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `xg_teacher` [ RunTime:0.039211s ]
+SQL: SELECT * FROM `xg_teacher`  [ RunTime:0.000892s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003044s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003314s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.039000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039253s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001484s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001580s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001213s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006570s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001913s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002104s ]
+
+[ 2015-08-16T00:40:25+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/teacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002281s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002424s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `xg_teacher` [ RunTime:0.027558s ]
+SQL: SELECT * FROM `xg_teacher`  [ RunTime:0.000804s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002297s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002499s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025604s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000934s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000718s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000683s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003555s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000913s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2015-08-16T00:41:21+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/teacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001141s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `xg_teacher` [ RunTime:0.048958s ]
+SQL: SELECT * FROM `xg_teacher`  [ RunTime:0.000759s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002417s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002636s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024557s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000709s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000685s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000540s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002965s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000802s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2015-08-16T00:41:30+08:00 ] ERR: (ThinkException) ÈùûÊ≥ïÊìç‰Ωú:U('Dodata
+[ 2015-08-16T00:45:14+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/teacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `xg_teacher` [ RunTime:0.045557s ]
+SQL: SELECT * FROM `xg_teacher`  [ RunTime:0.000670s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001962s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002154s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024631s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001253s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001209s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000927s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005205s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001429s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001603s ]
+
+[ 2015-08-16T00:46:24+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/teacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `xg_teacher` [ RunTime:0.044176s ]
+SQL: SELECT * FROM `xg_teacher`  [ RunTime:0.000691s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001956s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002143s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039029s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000929s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000721s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000719s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003474s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000813s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2015-08-16T00:46:34+08:00 ] 0.0.0.0 /xin_gong/index.php/Dodata/DelTeacher/id/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001662s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001856s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+SQL: SHOW COLUMNS FROM `xg_teacher` [ RunTime:0.031006s ]
+SQL: DELETE FROM `xg_teacher` WHERE ( 2 ) [ RunTime:0.109548s ]
+
+[ 2015-08-16T00:49:45+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/teacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001748s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001983s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `xg_teacher` [ RunTime:0.049998s ]
+SQL: SELECT * FROM `xg_teacher`  [ RunTime:0.001386s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005607s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006219s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.047130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047530s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001211s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001189s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000954s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005235s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002676s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002971s ]
+
+[ 2015-08-16T09:48:00+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.007781s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007919s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006251s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005567s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005709s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.063950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064071s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005736s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.005401s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004787s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.006188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022448s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005266s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005377s ]
+
+[ 2015-08-16T09:49:15+08:00 ] 0.0.0.0 /xin_gong/index.php/Dodata/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001185s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\wamp\www\xin_gong\Home\Lib\Action\DodataAction.class.php Á¨¨ 32 Ë°å.
+SQL: SHOW COLUMNS FROM `xg_teacher` [ RunTime:0.029133s ]
+NOTIC: [8] Undefined index: savepath D:\wamp\www\xin_gong\Home\Lib\Action\DodataAction.class.php Á¨¨ 43 Ë°å.
+SQL: INSERT INTO `xg_teacher` (`name`,`position_title`,`email`,`contact`,`other`,`task`,`experience`,`photo_path`) VALUES ('∆’Ω‹–≈','ΩÃ ⁄','www.liu.com',1121221,'‘∫≥§','∑÷π‹ΩÃ—ß','¿≤¿≤¿≤',null) [ RunTime:0.000949s ]
+ERR: Column 'photo_path' cannot be null
+ [ SQLËØ≠Âè• ] : INSERT INTO `xg_teacher` (`name`,`position_title`,`email`,`contact`,`other`,`task`,`experience`,`photo_path`) VALUES ('∆’Ω‹–≈','ΩÃ ⁄','www.liu.com',1121221,'‘∫≥§','∑÷π‹ΩÃ—ß','¿≤¿≤¿≤',null)
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002044s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002276s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020388s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000813s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000921s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000583s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003403s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001111s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001260s ]
+
+[ 2015-08-16T09:49:17+08:00 ] ERR: (ThinkException) ÈùûÊ≥ïÊìç‰Ωú:Admin
+[ 2015-08-16T09:50:56+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/teacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001103s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `xg_teacher` [ RunTime:0.042169s ]
+SQL: SELECT * FROM `xg_teacher`  [ RunTime:0.001256s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003614s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003950s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.042772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043145s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002267s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002297s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002220s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011541s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004381s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004720s ]
+
+[ 2015-08-16T09:51:03+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/teacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001095s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `xg_teacher` [ RunTime:0.035720s ]
+SQL: SELECT * FROM `xg_teacher`  [ RunTime:0.000543s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001431s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001589s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015553s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000884s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000904s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000693s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003986s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001213s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001422s ]
+
+[ 2015-08-16T09:55:47+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001098s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000948s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001069s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012484s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000775s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000749s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000618s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003400s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001340s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2015-08-16T09:56:28+08:00 ] 0.0.0.0 /xin_gong/index.php/Dodata/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001047s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\wamp\www\xin_gong\Home\Lib\Action\DodataAction.class.php Á¨¨ 32 Ë°å.
+SQL: SHOW COLUMNS FROM `xg_teacher` [ RunTime:0.041804s ]
+NOTIC: [8] Undefined index: savepath D:\wamp\www\xin_gong\Home\Lib\Action\DodataAction.class.php Á¨¨ 43 Ë°å.
+SQL: INSERT INTO `xg_teacher` (`name`,`position_title`,`email`,`contact`,`other`,`task`,`experience`,`photo_path`) VALUES ('∆’Ω‹–≈','ΩÃ ⁄','www.liu.com',12134,'∏±‘∫≥§','∑÷π‹ΩÃ—ß','¿≤¿≤¿≤¿≤\r\n',null) [ RunTime:0.000931s ]
+ERR: Column 'photo_path' cannot be null
+ [ SQLËØ≠Âè• ] : INSERT INTO `xg_teacher` (`name`,`position_title`,`email`,`contact`,`other`,`task`,`experience`,`photo_path`) VALUES ('∆’Ω‹–≈','ΩÃ ⁄','www.liu.com',12134,'∏±‘∫≥§','∑÷π‹ΩÃ—ß','¿≤¿≤¿≤¿≤\r\n',null)
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003030s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003355s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.053945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054319s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002217s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002168s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001862s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009557s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003005s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003485s ]
+
+[ 2015-08-16T09:56:29+08:00 ] ERR: (ThinkException) ÈùûÊ≥ïÊìç‰Ωú:U(
+[ 2015-08-16T10:02:14+08:00 ] ERR: (ThinkException) ÈùûÊ≥ïÊìç‰Ωú:U(
+[ 2015-08-16T10:02:15+08:00 ] ERR: (ThinkException) ÈùûÊ≥ïÊìç‰Ωú:U(
+[ 2015-08-16T10:02:31+08:00 ] 0.0.0.0 /xin_gong/index.php/Dodata/AddTeacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001073s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\wamp\www\xin_gong\Home\Lib\Action\DodataAction.class.php Á¨¨ 32 Ë°å.
+SQL: SHOW COLUMNS FROM `xg_teacher` [ RunTime:0.025862s ]
+NOTIC: [8] Undefined index: savepath D:\wamp\www\xin_gong\Home\Lib\Action\DodataAction.class.php Á¨¨ 43 Ë°å.
+SQL: INSERT INTO `xg_teacher` (`name`,`position_title`,`email`,`contact`,`other`,`task`,`experience`,`photo_path`) VALUES ('∆’Ω‹–≈','ΩÃ ⁄','www.liu.com',12134,'∏±‘∫≥§','∑÷π‹ΩÃ—ß','¿≤¿≤¿≤¿≤\r\n',null) [ RunTime:0.000670s ]
+ERR: Column 'photo_path' cannot be null
+ [ SQLËØ≠Âè• ] : INSERT INTO `xg_teacher` (`name`,`position_title`,`email`,`contact`,`other`,`task`,`experience`,`photo_path`) VALUES ('∆’Ω‹–≈','ΩÃ ⁄','www.liu.com',12134,'∏±‘∫≥§','∑÷π‹ΩÃ—ß','¿≤¿≤¿≤¿≤\r\n',null)
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002460s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002732s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017340s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001366s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001323s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001094s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005770s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001605s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001778s ]
+
+[ 2015-08-16T10:02:33+08:00 ] 0.0.0.0 /xin_gong/index.php/Admin/teacher
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002007s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002225s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002391s ]
+SQL: SHOW COLUMNS FROM `xg_teacher` [ RunTime:0.052163s ]
+SQL: SELECT * FROM `xg_teacher`  [ RunTime:0.000638s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003114s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003483s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025884s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000807s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001183s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001095s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004699s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000937s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2015-08-16T10:13:55+08:00 ] ERR: (ThinkException) ÈùûÊ≥ïÊìç‰Ωú:teacherr
+[ 2015-08-16T10:14:39+08:00 ] ERR: (ThinkException) ÈùûÊ≥ïÊìç‰Ωú:teacherr
+[ 2015-08-16T11:02:22+08:00 ] ERR: (ThinkException) ÈùûÊ≥ïÊìç‰Ωú:ModifyTea
+[ 2015-08-16T11:03:33+08:00 ] ERR: (ThinkException) ÈùûÊ≥ïÊìç‰Ωú:ModifyTea
+[ 2015-08-16T11:17:27+08:00 ] ERR: (ThinkException) ÈùûÊ≥ïÊìç‰Ωú:ModifyTea
+[ 2015-08-16T12:16:16+08:00 ] ERR: (ThinkException) ÈùûÊ≥ïÊìç‰Ωú:file
+[ 2015-08-16T12:18:09+08:00 ] ERR: (ThinkException) ÈùûÊ≥ïÊìç‰Ωú:file
+[ 2015-08-16T12:18:11+08:00 ] ERR: (ThinkException) ÈùûÊ≥ïÊìç‰Ωú:file
+[ 2015-08-16T12:19:51+08:00 ] ERR: (ThinkException) ÈùûÊ≥ïÊìç‰Ωú:file
+[ 2015-08-16T12:25:02+08:00 ] ERR: (ThinkException) ÈùûÊ≥ïÊìç‰Ωú:file

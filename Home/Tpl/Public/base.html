@@ -1,0 +1,63 @@
+<include file="Public:header"/>
+<load href="__PUBLIC__/Css/base.css"  />
+<script type="text/javascript">
+	$(function(){
+		$('#sidebar ul').hide();
+		$('#sidebar li a:parent').parent().parent().show();
+		$('#sidebar li a:empty').parent().hide();
+	})
+</script>
+<div id="middle">
+	<div id="sidebar">
+		<div class="menu">
+			<h2><{$base.w}></h2>
+			
+			<ul>
+				<li><a href="__ACTION__/tid/1"><{$base.w1}></a>
+					<ul>
+						<li><a href="__ACTION__/stu/1"><{$base.w1_1}></a></li>
+						<li><a href="__ACTION__/stu/2"><{$base.w1_2}></a></li>
+						<li><a href="__ACTION__/stu/3"><{$base.w1_3}></a></li>
+						<li><a href="__ACTION__/stu/4"><{$base.w1_4}></a></li>
+						<li><a href="__ACTION__/stu/5"><{$base.w1_5}></a></li>
+					</ul>
+				</li>
+				<li><a href="__ACTION__/tid/2"><{$base.w2}></a></li>
+				<li><a href="__ACTION__/tid/3"><{$base.w3}></a></li>
+				<li><a href="__ACTION__/tid/4"><{$base.w4}></a></li>
+				<li><a href="__ACTION__/tid/5"><{$base.w5}></a></li>
+			</ul>
+		</div>
+		<div class="link contact">
+			<h2>常用链接</h2>
+			<div>
+				<div class="sidebar_con">
+					<p>
+						<a href="">河南省图像处理与智能检测国际联合实验室</a><br>
+						<a href="">河南省装备制造智能控制工程实验室</a><br>
+						<a href="">河南省智能技术与重点学科开放实验室</a><br>
+						<a href="">河南省智能技术院士工作站</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="contact">
+			<h2>联系我们</h2>
+			<div class="sidebar_con">
+				<p>
+				电话：64231910<br>
+				传真：<br>
+				邮件：dxbgs@mail.haust.edu.cn<br>
+				邮编：471023<br>
+				地址：中国·洛阳 开元大道263号<br>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="main">
+		<block name="sitenav"></block>
+		<block name="about_cont"></block>
+	</div>
+	<div style="height:1px; margin-top:-1px;clear: both;overflow:hidden;"></div>
+</div>
+<include file="Public:footer"/>

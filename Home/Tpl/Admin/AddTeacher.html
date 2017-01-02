@@ -1,0 +1,56 @@
+<extend name="Public:admin_base" />
+<block name="main">
+	<div id="main">
+		<div class="title">
+			<strong>添加教师</strong>/<small>Add Teacher</small>
+			<!-- 配置文件 -->
+		    <load href="__PUBLIC__/ueditor-gbk-php/ueditor.config.js"/>
+		    <!-- 编辑器源码文件 -->
+		    <load href="__PUBLIC__/ueditor-gbk-php/ueditor.all.js"/>
+		  
+			<script type="text/javascript">
+				var ue = UE.getEditor('container'); // <!-- 实例化编辑器 -->
+				ue.ready(function() {
+			    ue.setContent('填写教师主要经历');  //设置编辑器的内容
+			       
+			    var txt = ue.getContentTxt();  //获取纯文本内容，返回: hello
+			});
+
+			// <!--提交数据-->
+			$(function(){
+				$('.add').click(function(){
+					var html = ue.getContent();//获取html内容，返回: <p>hello</p>
+					$("form[name='addteacher']").submit();
+				});
+			})
+			</script>
+			<a href="javascript:void(0);" class="add">保存</a>
+		</div>
+		<div class="content">
+			<form method="post" enctype="multipart/form-data" action="<{:U('Dodata/AddTeacher')}>" name="addteacher">
+				<div class="cont_list"><strong>姓名/Name</strong><input type="text" placeholder="姓名" name="name" /></div>
+				<div class="cont_pic">
+					<div class="person_pic"><img src="" width='110px' height="160px" /></div>
+					<div class="person_text">
+						<p>请从本地上传一张22mm*32mm的照片</p>
+						<input type="file"  name="photo" />
+					</div>
+				</div>
+				<div class="cont_list"><strong>职称/Position</strong><input type="text" placeholder="例：教授/讲师" name="position_title" /></div>
+				<div class="cont_list"><strong>电子邮件/E-mail</strong><input type="text" placeholder="电子邮件" name="email" /></div>
+				<div class="cont_list"><strong>联系方式/Phone</strong><input type="text" placeholder="电话/手机号" name="contact" /></div>
+				<div class="cont_list"><strong>其他/Other</strong><input type="text" placeholder="例：院长/辅导员" name="other" /></div>
+				<div class="cont_list"><strong>职责/Task</strong><input type="text" placeholder="例：分管....." name="task" /></div>
+				<div class="cont_list"><strong>经历/Experience</strong></div>
+				<div style="height:1px; margin-top:-1px;clear: both;overflow:hidden;"></div>
+				<div class="editor">
+					 <!-- 加载编辑器的容器 -->
+				    <script id="container" name="experience" type="text/plain">填写教师主要经历
+    				</script> </div>
+				
+				
+
+			</form>
+		</div>
+	</div>
+</block>

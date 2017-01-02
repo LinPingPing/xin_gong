@@ -1,0 +1,326 @@
+a{
+	color: #333;
+	text-decoration: none;
+	outline: medium none;
+}
+ul li{
+	list-style: outside none none;
+}
+#middle{
+	width: 1030px;
+	padding: 10px 0px 0px 10px;
+	margin: 0px auto;
+	background: #fff none repeat scroll 0% 0%;
+	color: #333;
+	font-family: "宋","微软雅黑";
+	font-size: 14px;
+}
+#sidebar{
+	float: left;
+	width: 207px;
+	margin-right: 17px;
+}
+/*******侧边栏菜单*******/
+.menu{
+	float: left;
+	width: 207px;
+	border-top: 3px solid #A54200;
+	border-bottom: 2px solid #A54200;
+	background-color: #F4F4F4;
+	margin-bottom: 13px;
+}
+#sidebar h2{
+	width: 207px;
+	height: 52px;
+	line-height: 52px;
+	background-color: #F48033;
+	text-indent: 15px;
+	color: #fff;
+}
+.menu ul{
+	list-style: outside none none;
+	border: 1px solid #D7D7D7;
+	padding: 15px 10px 17px 10px; 
+}
+.menu ul li{
+	margin-bottom: 13px;
+	line-height: 30px;
+	width: 185px;
+}
+.menu ul li ul{
+	list-style: outside none none;
+	border: 0px;
+	padding: 7px 0px 0px;
+}
+.menu ul li ul li{
+	margin-bottom: 0px;
+	height: 25px;
+	line-height: 25px;
+	width: 145px;
+	margin-left: 35px;
+}
+.menu ul li ul li a{
+	background: transparent url("../Images/sade_li_ul_icon.gif") no-repeat scroll left center;
+	height: 25px;
+	line-height: 25px;
+	text-indent: 19px;
+	width: 150px;
+}
+.menu ul li ul li a:hover{
+	background: #F48033 none repeat scroll 0% ;
+}
+.menu a{
+	background: transparent url("../Images/sade_li_bg1.gif") repeat-x scroll 0% 0%;
+	text-indent: 37px;
+	width: 185px;
+	height: 30px;
+	display: block;
+	text-decoration: none;
+	color: #333;
+}
+.menu a:hover{
+	background: transparent url("../Images/sade_li_bg2.gif") repeat-x scroll 0% 0%;
+	color: #fff;
+}
+
+.contact{
+	float: left;
+	width: 207px;
+	border-top: 3px solid #A54200;
+	border-bottom: 2px solid #A54200;
+	background-color: #F4F4F4;
+	margin-bottom: 10px;
+}
+.sidebar_con{
+	padding: 15px 10px 17px;
+	border: 1px solid #D7D7D7;
+	color: #333;
+	line-height: 24px;
+	font-size: 12px;
+}
+.main{
+	width: 795px;
+	float: left;
+	overflow: hidden;
+	line-height: 25px;
+}
+.sitenav{
+	background: transparent url("../Images/home.gif") no-repeat scroll left center;
+	font-size: 12px;
+	color: #929292;
+	margin-bottom: 9px;
+	padding-left: 20px;
+	line-height: 25px;
+}
+.sitenav a{
+	text-decoration: none;
+	color: #929292;
+}
+.cont_tu{
+	padding-bottom: 23px;
+	background: transparent url("../Images/about_ban_bg.gif") no-repeat scroll center bottom;
+}
+.cont_tu img{
+	border: 3px solid #D7D7D7;
+}
+.cont_text{
+	text-indent: 2em;
+	text-align: left;
+	color: #464646;
+}
+.cont_text p{
+	padding-bottom: 15px;
+}
+/********现任领导********/
+.leader{
+	width: 372px;
+	height: 220px;
+	margin-right: 22px;
+	float: left;
+}
+.leader h3{
+	font-size: 14px;
+	color: #3C3C3C;
+	background: #E1E1E1 none repeat scroll 0% 0%;
+	width: 368px;
+	height: 18px;
+	line-height: 18px;
+	border-left: 4px solid #178DCB;
+	text-indent: 13px;
+	font-weight: normal;
+	margin-bottom: 17px; 
+}
+.lead_pic{
+	border: 1px solid #CCC;
+	background: #FFFBEE none repeat scroll 0% 0%;
+	padding: 4px;
+	width: 110px;
+	height: 150px;
+	float: left;
+	margin-right: 20px;
+}
+.lead_pic img{
+	width: 100px;
+	height: 150px;
+}
+.lead_con{
+	float: left;
+	color: #3C3C3C;
+	position: relative;
+}
+.lead_con h6{
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 34px;
+	padding-bottom: 6px;
+	font-family: "微软雅黑";
+}
+.lead_con p{
+	width: 220px;
+}
+.lead_con a{
+	position: absolute;
+	top: 142px;
+	left: 0px;
+}
+/*********组织机构*******/
+.org_list{
+	margin-left: 45px;
+}
+.org_list p{
+	text-indent: 1em;
+}
+.org_list p a:hover{
+	color: #F00;
+}
+/********文章显示页面*****/
+.ly{
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	color: #9D9D9D;
+	background: #E8E8E8 none repeat scroll 0% 0%;
+}
+h2.title_h2{
+	text-align: center;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 65px;
+	margin-top: -10px;
+}
+.cont_info{
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/********列表显示******/
+ul.list_cont{
+	width: 794px;
+}
+ul.list_cont li{
+	background: transparent url("../Images/list_cont.gif") no-repeat scroll 5px center;
+	padding-left: 22px;
+	font-size: 14px;
+	color: #3C3C3C;
+	border-bottom: 1px solid #CCC;
+	line-height: 39px;
+}
+ul.list_cont li span{
+	float: right;
+	font-size: 12px;
+	color: #AEAEAE;
+	padding-right: 5px;
+}
+ ul.list_cont li a:hover{
+ 	color: red;
+ }
+/*********本科教育*******/
+.hd ul li{
+	margin-right: 9px;
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    padding: 0px 22px;
+    border-width: 1px 1px medium;
+    border-style: solid solid none;
+    border-color: #C9C9C9 #C9C9C9 -moz-use-text-color;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+}
+.hd{
+	height: 35px;
+	border-bottom: 1px solid #C9C9C9;
+}
+.hd ul{
+	float: left;
+	left: 0px;
+	bottom: -1px;
+	font-size: 14px;
+}
+.hd ul li.on{
+	height: 33px;
+	line-height: 33px;
+	border-width: 2px 1px 1px;
+	border-style: solid;
+	border-color: #00A2CA #C9C9C9 #FFF;
+	cursor: pointer;
+	padding: 0px 22px;
+}
+.bd{
+	padding: 16px 0px;
+	float: left;
+}
+.bd h2{
+	text-align: center;
+	margin-bottom: 15px;
+	font-weight: 100;
+}
+/*******教师信息*******/
+.teacher_h1{
+	background: transparent url("../Images/teacher-info-h-bg.gif") no-repeat scroll center bottom;
+	width: 791px;
+	line-height: 65px;
+	font-size: 22px;
+	color: #178DCB;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.teacher_info{
+	padding-top: 33px;
+	height: 204px;
+}
+.teacher_pic{
+	float: left;
+	width: 156px;
+	margin: 0px 24px 0px 14px;
+}
+.teacher_pic img{
+	padding: 2px;
+	border: 1px solid #E2E7E2;
+	/*width: 150px;*/
+	height: 175px;
+}
+.teacher_detal{
+	float: left;
+	line-height: 26px;
+	width: 595px;
+	font-size: 14px;
+}
+.teacher_detal p em{
+	color: #178DCB;
+	font-style: normal;
+}
+.teacher_exper h2{
+	line-height: 35px;
+	height: 35px;
+	border-top: 3px solid #178DCB;
+	border-bottom: 1px solid #E8E8E8;
+	background: transparent url("../Images/teacher-info-h-icon.gif") no-repeat scroll 6px center;
+	text-indent: 28px;
+	font-size: 15px;
+	color: #178DCB;
+	font-weight: normal;
+}

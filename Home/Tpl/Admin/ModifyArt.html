@@ -1,0 +1,69 @@
+<extend name="Public:admin_base" />
+<block name="main">
+	<div id="main">
+		<div class="title">
+			<strong>修改文章</strong>/<small>Modify Article</small>
+			<!-- 配置文件 -->
+		    <load href="__PUBLIC__/ueditor-gbk-php/ueditor.config.js"/>
+		    <!-- 编辑器源码文件 -->
+		    <load href="__PUBLIC__/ueditor-gbk-php/ueditor.all.js"/>
+		  
+			<script type="text/javascript">
+				var ue = UE.getEditor('container'); // <!-- 实例化编辑器 -->
+				ue.ready(function() {
+					var text='<?php echo $data['content']; ?>';
+			    	ue.setContent(text);  //设置编辑器的内容
+			       
+			   // var txt = ue.getContentTxt();  获取纯文本内容，返回: hello
+			});
+
+			// <!--提交数据-->
+			$(function(){
+				// var column='<?php echo $data['column']; ?>';
+				// if (column=='学院概况') {
+				// 	$('option:eq(0)').attr('selected','selected');
+				// }else if(column=='学科建设'){
+				// 	$('option:eq(1)').attr('selected','selected');
+				// }else if (column=='本科教育') {
+				// 	$('option:eq(2)').attr('selected','selected');
+				// };
+				$('.add').click(function(){
+					var html = ue.getContent();//获取html内容，返回: <p>hello</p>
+					$("form[name='modifyarticle']").submit();
+				});
+			})
+			</script>
+			<a href="javascript:void(0);" class="add">保存</a>
+		</div>
+		<div class="content">
+			<form method="post" enctype="multipart/form-data" action="<{:U('Dodata/ModifyArt')}>" name="modifyarticle">
+			<input type='hidden' name='id' value='<{$data.id}>'/>
+				<div class="cont_list"><strong>标题/Title</strong><input type="text" name="headline" value="<{$data.headline}>" /></div>
+				<div class="cont_list"><strong>作者/Author</strong><input type="text" name="author" value="<{$data.author}>" /></div>
+				<div class="cont_list"><strong>栏目/Column</strong>
+					<select name="column">
+
+					<option value="introduce" <eq name="data.column" value="introduce">selected="selected"</eq>>学院概况</option>
+					<option value="xue_ke" <eq name="data.column" value="xue_ke">selected="selected"</eq>>学科建设</option>
+					<option value="ungraduate" <eq name="data.column" value="ungraduate">selected="selected"</eq>>本科教育</option>
+					<option value="graduate" <eq name="data.column" value="graduate">selected="selected"</eq>>研究生教育</option>
+					<option value="competition" <eq name="data.column" value="competition">selected="selected"</eq>>学科竞赛</option>
+					<option value="teacher_student" <eq name="data.column" value="teacher_student">selected="selected"</eq>>师生天地</option>
+					<option value="student_work" <eq name="data.column" value="student_work">selected="selected"</eq>>学生工作</option>
+					<option value="zheng_che" <eq name="data.column" value="zheng_che">selected="selected"</eq>>政策法规</option>
+					<option value="party_active" <eq name="data.column" value="party_active">selected="selected"</eq>>支部活动</option>
+					<option value="zhao_sheng" <eq name="data.column" value="zhao_sheng">selected="selected"</eq>>招生信息</option>
+					<option value="jiu_ye" <eq name="data.column" value="jiu_ye">selected="selected"</eq>>就业指导</option>
+					</select></div>
+				<div style="height:1px; margin-top:-1px;clear: both;overflow:hidden;"></div>
+				<div class="editor">
+					 <!-- 加载编辑器的容器 -->
+				    <script id="container" name="content" type="text/plain">
+    				</script> </div>
+				
+				
+
+			</form>
+		</div>
+	</div>
+</block>

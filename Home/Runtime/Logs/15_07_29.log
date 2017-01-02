@@ -1,0 +1,230 @@
+[ 2015-07-29T14:06:49+08:00 ] 0.0.0.0 /xin_gong/index.php/Index/jie_shao
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003515s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003999s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003287s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004027s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004522s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.042119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042763s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003050s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002177s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001594s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010297s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003010s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003455s ]
+
+[ 2015-07-29T14:08:10+08:00 ] 0.0.0.0 /xin_gong/index.php/Index/jie_shao
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004165s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004644s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002968s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002935s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003335s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033007s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001994s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002580s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001865s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009819s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002571s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002909s ]
+
+[ 2015-07-29T14:08:36+08:00 ] 0.0.0.0 /xin_gong/index.php/Index/jie_shao
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003400s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002802s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001760s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002111s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030621s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001619s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001658s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001285s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007846s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003227s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003553s ]
+
+[ 2015-07-29T14:12:18+08:00 ] 0.0.0.0 /xin_gong/index.php/Index/jie_shao
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004225s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003397s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003013s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003488s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036011s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002147s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002153s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001824s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010142s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002964s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003349s ]
+
+[ 2015-07-29T14:12:49+08:00 ] 0.0.0.0 /xin_gong/index.php/Index/jie_shao
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004825s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005460s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002932s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003018s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003378s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034377s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002938s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002161s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001836s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010963s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003914s ]
+
+[ 2015-07-29T15:44:37+08:00 ] 0.0.0.0 /xin_gong/index.php/Index/jie_shao
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004115s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004493s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003835s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003099s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003459s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.045025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045999s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004011s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003017s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001800s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012854s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002719s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003036s ]
+
+[ 2015-07-29T15:47:04+08:00 ] 0.0.0.0 /xin_gong/index.php/Index/jie_shao
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003494s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003889s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002762s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003583s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004053s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037107s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002252s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002333s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001821s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010222s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003122s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003631s ]
+
+[ 2015-07-29T15:51:49+08:00 ] 0.0.0.0 /xin_gong/index.php/Index/xue_ke
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003752s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002581s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003719s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004302s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038304s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002908s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002880s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002065s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011986s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003158s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003474s ]
+
+[ 2015-07-29T15:52:16+08:00 ] 0.0.0.0 /xin_gong/index.php/Index/xue_ke
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002928s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003340s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003938s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002302s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003011s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033830s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001926s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001670s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001358s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008086s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002591s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002925s ]
+
+[ 2015-07-29T16:01:52+08:00 ] 0.0.0.0 /xin_gong/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003784s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004212s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003135s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003173s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003711s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.091378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092078s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002319s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002508s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002049s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010646s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002836s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003150s ]
+
